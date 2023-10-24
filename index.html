@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Batman TS4U | Home</title>
-    <link rel="stylesheet" href="./Assets/CSS/style.css"
+    <link rel="stylesheet" href="./Assets/CSS/style.css">
 </head>
 <body>
     <header>
@@ -18,51 +18,62 @@
         </nav>
     </header>
     <main>
-        <!-- La première section de la partie hero -->
+        <!-- Les réseaux sociaux avec le scrolling-->
+        <div class="scroll"> 
+            <img src="./Assets/Logos/logo_bat_flèche.png" alt="">
+            <img class="social" src="./Assets/Logos/icon_facebook.png" alt="">
+            <img class="social" src="./Assets/Logos/icon_ig.png" alt="">
+            <img class="social" src="./Assets/Logos/icon_tw.png" alt="">
+            <img src="./Assets/Logos/logo_bat_flèche.png" alt="">
+            </div>
+            <!-- La première section de la partie hero -->
         <section id="hero">
             <div class="container">
-            <p class="texte"> Au nom de ses parents assassinés, Bruce Wayne mène une guerre éternelle contre les criminels de Gotham City. Il est vengeur. Il est la nuit. Il est Batman.</p>
-            <h2 class="titre"> Il est Batman</h2>
-            <div class="cta"
-            <div>
-                <a href="#">VOIR LE HEROS</a> 
-                <a href="#">LES ADVERSAIRES</a>
+             <div class="content">
+            <p class="texte"> Au nom de ses parents assassinés, Bruce Wayne mène une guerre éternelle contre les criminels de Gotham City. Il est vengeur. Il est la nuit.</p>
+            <h2 class="titre"> Il est Batman.</h2>
+            <div class="cta">
+                <a class="btn" href="#batman-cinema">VOIR LE HEROS</a> 
+                <a class="btn" href="#">LES ADVERSAIRES</a>
             </div>
             </div>
-            <img src="./Assets/Logos/flèche_down_header.png" alt="fleche">
+            </div>
+            <img class="fleche" src="./Assets/Logos/flèche_down_header.png" alt="fleche">
         </section>
         <!-- La deuxième section concernant Batman au cinéma -->
         <section id="batman-cinema">
             <div class="container">
-            <h1>BATMAN AU CINÉMA</h1>
-            <p>Le personnage de Batman est un super héros de l’univers de DC Comics.
+            <h1 class="titre">Batman au cinema</h1>
+            <p class="description">Le personnage de Batman est un super héros de l’univers de DC Comics.
                 Il a été créé par le dessinateur Bob Kane et le scénariste Bill Finger et apparaît 
                 pour la première fois dans le comic book Detective Comics en 1939. Batman se différencie de Superman,
                  alors héros majeur de DC, car il n’a aucun pouvoir.
                 Il sera porté au cinéma pour la première fois en 1943 par Lewis Wilson et bénéficiera de nombreux reboots,
                  donnant l’occasion à de multiples acteurs d’interpréter l’homme chauve-souris. Voici les trois derniers :</p>
-            </div class="batman-personnage">
-            <div>
-                <div class="container">
-                    <div class="container">
+                 <div class="container batman-personnage">
+                    <div class="batman-item">
                         <img src="./Assets/Illustrations/Bathome8.png" alt="">
-                        <h3>Catwoman Zoé Kravitz</h3>
-                        <p>(2022)</p>
-                        <img src="./Assets/Illustrations/Bathome3.png" alt="">
-                        <h3>Catwoman Zoé Kravitz</h3>
-                        <p>(2022)</p>
-                        <img src="./Assets/Illustrations/Bathome5.png" alt="">
-                        <h3>Catwoman Zoé Kravitz</h3>
-                        <p>(2022)</p>
+                        <div class="personnage">
+                            <h3>Catwoman Zoé Kravitz</h3>
+                            <p>(2022)</p>
+                        </div>
                     </div>
-                </div>
+                    <div class="batman-item">
+                        <img src="./Assets/Illustrations/Bathome3.png" alt="">
+                        <div>
+                            <h3>Catwoman Zoé Kravitz</h3>
+                            <p>(2022)</p>
+                        </div>
+                    </div>
+                    <div class="batman-item">
+                        <img src="./Assets/Illustrations/Bathome5.png" alt="">
+                        <div>
+                            <h3>Catwoman Zoé Kravitz</h3>
+                            <p>(2022)</p>
                         </div>
                     </div>
                 </div>
                 
-                    </div>
-                    </div>
-                    </div>
         </section>
         <!-- La section nemesis -->
         <!--La section multimedia-->
@@ -71,23 +82,27 @@
                 <div>
                     <img src="./Assets/Illustrations/Bathome_ba1.png"
                 </div>
-            <div>
-                <h2>ACTION, ADVENTURE</h2>
-                <h3>Batman begins</h3>
-                <p>IMDB: <span>8.2</span></p>
-                <p>
-                    Le jeune Bruce Wayne assiste impuissant au meurtre de ses parents. Profondément 
-                    traumatisé, il grandit obnubilé par un désir de vengeance. La Ligue des ombres, une secte de 
-                    guerriers ninja dirigée par Ra's al Ghul, se chargera de son entraînement. De retour chez lui à 
-                    Gotham, avec l'aide de son majordome Alfred Pennyworth, Bruce Wayne se lance alors dans 
+                <section class="movie-section">
+                    <div class="movie-container">
+                    <div class="movie-info">
+                    <h2>ACTION, ADVENTURE</h2>
+                    <h3>Batman begins</h3>
+                    <p>IMDB: <span>8.2</span></p>
+                    <p>
+                    Le jeune Bruce Wayne assiste impuissant au meurtre de ses parents. Profondément
+                    traumatisé, il grandit obnubilé par un désir de vengeance. La Ligue des ombres, une secte de
+                    guerriers ninja dirigée par Ra's al Ghul, se chargera de son entraînement. De retour chez lui à
+                    Gotham, avec l'aide de son majordome Alfred Pennyworth, Bruce Wayne se lance alors dans
                     la lutte contre le crime sous le nom de Batman
-                </p>
-                <div>
-                    <img src="./Assets/Illustrations/Bathome_ba2.png"
-                </div>
-            </div>
-            </div>
-        </section>
+                    </p>
+                    </div>
+                    </div>
+                </section>
+                    <div class="movie-image">
+                    <img src="./Assets/Illustrations/Bathome_ba2.png" alt="Batman begins">
+                    </div>
+                    </div>
+                    </section>
         <!--Formulaire-->
         <div>
             <h2>PRENOMS CONTACT</h2>

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 
 @font-face{
-    font-family: "rajdhani";
+    font-family: 'rajdhani' ;
     src: url(../police/Rajdhani-Medium.ttf);
 }
 :root{
@@ -9,6 +9,9 @@
     --yellow-light: #F8F184;
     --bleu-color: #19587d; 
     --white-color: #ffffff;
+    --gradient-white: #EDDEBF;
+    --gradient-red: #89000978;
+    --gradient-black: #000;
 }
 *{
     margin: 0;
@@ -34,7 +37,7 @@ button{
 body{
     background-color: black;
     color: white;
-    font-family: 'space-Grotesk';
+    font-family: 'space Grotesk';
     font-weight: 300;
 }
 /*Design de la navigation*/
@@ -72,20 +75,73 @@ nav ul a:hover{
     background-position: top center;
     background-repeat: no-repeat;
     background-color: #19587d; 
+    background-size: cover;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 150px;
+}
+#hero .titre{
+margin: 20px 0;
+}
+
+
+.btn {
+    text-decoration: none;
+    color: var(--white-colore);
+    font-size: 22px;
+    padding: 10px 40px;
+    margin-top: 10px;
+    background: linear-gradient(80deg, var(--gradient-white), var(--gradient-red)
+    
+    );
+    box-shadow: var(--black-color) 15px 15px 40px;
+}
+
+
+.hero .fleche{
+    display: block;
+    margin: 0 auto;
+    margin-top: 285px;
+}
+.scroll{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    position: fixed;
+    right: 80px;
+    top: 230px;
+}
+.scroll .social{
+    margin-top: 15px;
+
 }
 
 /* Design de la section des personnages de Batman */
 
 .batman-personnage{
-    display: flex;
-justify-content: space-between;
-}
+   display: flex;
+   justify-content: space-between;
 
-.container img {
-width: 80%;
-height: auto;
 }
+#batman-cinema .titre{
+    text-transform: uppercae;
+    font-weight: bold;
+    margin: 30px 0;
+}
+#batman-cinema .description{
+    margin-bottom: 40px;
+    text-align: justify;
+    width: 80%;
+    font-size: 21px;
 
+}
 
    
 
