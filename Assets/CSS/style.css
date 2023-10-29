@@ -82,7 +82,7 @@ nav ul li a:hover {
 }
 /* design de la partie entete hero */
 #hero {
-  background-image: url("../assets/Illustrations-20231010T213724Z-001/Illustrations/Bathome1.png");
+  background-image: url("../Illustrations/Bathome1.png");
   height: 800px;
   background-position: top center;
   background-repeat: no-repeat;
@@ -381,7 +381,7 @@ li {
   list-style: none;
 } */
 /* body {
-  background-image: url("../assets/Illustrations-20231010T213724Z-001/Illustrations/Bathome1.png");
+  background-image: url("../Assets/illustration/bathome1");
 }
 p,
 h1,
